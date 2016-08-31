@@ -7,8 +7,8 @@
 #include <ESP8266WiFi.h>
 #include <WiFiClient.h>
 #include <ESP8266WebServer.h>
-#define DHTTYPE DHT11
-#define DHTPIN  5
+#define DHTTYPE DHT11  // may have to change this depending on the type of your DHT sensor
+#define DHTPIN  5      // may have to change this depending on your data pin
 
 const char* wifiName = "yourssid";
 const char* password = "yourpassword";
@@ -29,7 +29,7 @@ const long interval = 10000;              // 10 second interval to read sensor
 // handlers for each web page
  
 void handle_root() {
-  server.send(200, "text/plain", "Hello from the weather esp8266, read from /temp or /hum");
+  server.send(200, "text/plain", "Welcome to the temp/humidity local web server. Check temperature at /temp and humidity at /hum");
   delay(100);
 }
 
