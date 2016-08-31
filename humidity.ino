@@ -10,8 +10,8 @@
 #define DHTTYPE DHT11
 #define DHTPIN  5
 
-const char* wifiName = "vanderkoff";
-const char* password = "Shadow00";
+const char* wifiName = "yourssid";
+const char* password = "yourpassword";
 
 ESP8266WebServer server(80);
  
