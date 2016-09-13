@@ -12,4 +12,4 @@ With IoT, it's always possible. Luckily, there are a handful of tutorials online
 
 HOW TO USE:
 
-More to come on the details of putting this project into motion...
+Check out my post on my personal website for the technical implementation of this project at http://tvanderkooi.com/projects/auto-dehumidifier/
